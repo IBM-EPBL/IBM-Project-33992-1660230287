@@ -1,1 +1,15 @@
-To execute 
+## Deploy code on LOCALHOST
+
+1. Clone the github repository.
+
+2. Open Command Prompt . Set the file PATH on system.
+
+3. Install the requirement libraries using 
+```
+pip install -r requirements.txt
+```
+4. Now give the command 
+```
+python app.py
+```
+5. The environment is activated and a localhost url is displayed. Copy paste the URL and your project is deployed.
