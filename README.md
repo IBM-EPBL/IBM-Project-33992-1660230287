@@ -21,7 +21,7 @@ Download dataset from [here](https://drive.google.com/file/d/18PuytIZWvNQCnMypKd
 1. In this project various URL features are taken as parameters so that every of the string is verified effectively.
 2. Models are trained and tested in IBM cloud and Flask is integrated to it. 
 3. The final conclusion on the Phishing dataset is that the some feature like "HTTTPS", "AnchorURL", "WebsiteTraffic" have more importance to classify URL is phishing URL or not. 
-4. Gradient Boosting Classifier currectly classify URL upto 97.4% respective classes and hence reduces the chance of malicious attachments.
+4. Gradient Boosting Classifier(XGBoostClassifier) currectly classify URL upto 97.4% respective classes and hence reduces the chance of malicious attachments.
 5. This web application can be further developed to create a chrome extension , so as when ever a user explore a website a notification indicating if the website is safe or malicious can be popped automatically. Thus reducing the fraud effectively.
 
 
